@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do list </title>
-<!--     <link rel="stylesheet" href="style-1.css"> -->
-    <style>    * {
+    <link rel="stylesheet" href="style-1.css">
+<!--     <style>    * {
         margin: 0;
         padding: 0;
         font-family: 'Poppins', sans-serif;
@@ -85,7 +85,7 @@
         height: 28px;
         width: 28px;
         border-radius: 50%;
-        background-image: url(/images/unchecked.png);
+        background-image: url(unchecked.png);
         background-size: cover;
         background-position: center;
         top: 12px;
@@ -98,7 +98,7 @@
     }
     
     ul li.checked::before {
-        background-image: url(/images/checked.png);
+        background-image: url(checked.png);
     }
     
     ul li span {
@@ -116,13 +116,13 @@
     
     ul li span:hover {
         background: #edeef0;
-    }</style>
+    }</style> -->
 </head>
 
 <body>
     <div class="container">
         <div class="todo-app">
-            <h2>To-Do List <img src="\images\icon.png"></h2>
+            <h2>To-Do List <img src="icon.png"></h2>
             <div class="row">
                 <input type="text" id="input-box" placeholder="Add your text">
                 <button onclick="addTask()">Add</button>
